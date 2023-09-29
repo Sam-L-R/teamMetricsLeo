@@ -33,18 +33,18 @@ document.getElementById("dataForm").onsubmit = function (event) {
 
   // Sets the depto variable based on the selected option
   switch (userSelect) {
-    case 'Alexia':
-      deptoInput = 'Hublx';
+    case 'Julia Santos':
+    case 'Sara':
+    case 'Lara':
+    case 'Alice':
+      deptoInput = 'Suporte';
       break;
     case 'Alex':
     case 'Samuel':
+    case 'Isabelle':
       deptoInput = 'Integração/API';
       break;
-    case 'Gisele':
-    case 'Gabriela':
-      deptoInput = 'Waba';
-      break;
-    case 'Renan':
+    case 'Leo':
       deptoInput = 'N3';
       break;
     default:
