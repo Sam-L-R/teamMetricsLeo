@@ -68,7 +68,7 @@ document.getElementById("dataForm").onsubmit = function (event) {
   };
 
   // Sends data to the server
-  fetch("https://api.sheetmonkey.io/form/pN3zc8DNARWpffx51ZVnC4", {
+  fetch("https://api.sheetmonkey.io/form/rNQwZFMmEtnTjhjW8L1GSW", {
     method: "POST",
     // mode: "no-cors",
     headers: {
